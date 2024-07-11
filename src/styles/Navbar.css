@@ -1,0 +1,104 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem;
+    background-color: #ffffff;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 20%;
+    padding-left: 3rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #d28063;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.3s ease;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+/* Estilos para o menu hamburger */
+.hamburger-menu {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu input {
+    display: none;
+}
+
+.hamburger-menu label {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+}
+
+.hamburger-menu label span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #d28063;
+    margin: 5px 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hamburger-menu label span:first-child {
+    transform-origin: top left;
+}
+
+.hamburger-menu label span:nth-child(2) {
+    width: 25px; /* Ajuste a largura para cobrir completamente o ícone de X */
+}
+
+.hamburger-menu label span:last-child {
+    transform-origin: bottom left;
+}
+
+
+#menu-toggle:checked + label span:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked + label span:last-child {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger-menu .links {
+    display: none;
+    position: absolute;
+    top: 70px; /* Ajuste conforme necessário */
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    padding: 2rem;
+    z-index: 999;
+}
+
+#menu-toggle:checked + label + .links {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajuste para o X completo */
+#menu-toggle:checked + label span {
+    transform: rotate(45deg);
+}
+
+#menu-toggle:checked + label span:nth-child(2) {
+    opacity: 1;
+    width: 25px; /* Garante que o segundo span cubra completamente o ícone de X */
+    transform: scaleX(0);
+}
+
+#menu-toggle:checked + label span:last-child {
+    transform: rotate(-45deg);
+}

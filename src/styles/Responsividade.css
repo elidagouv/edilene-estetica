@@ -1,0 +1,546 @@
+@media screen and (max-width: 1024px){
+    .navbar{
+        padding: 1.2rem;
+    }
+
+    .logo img{
+        width: 24%;
+        padding-left: 2rem;
+    }
+
+    #content_section1 h1{
+        font-size: 2.5rem;
+    }
+
+    .navbar a{
+        font-size: 0.9rem;
+    }
+
+    #button_section1 button{
+        width: 9rem;
+        height: 2.6rem;
+    }
+
+    #content_carrossel h1{
+        font-size: 2.5rem;
+    }
+
+    .image-container img{
+        width: 150px;
+    }
+
+    .image-container p{
+        font-size: 0.8rem;
+    }
+
+    #content_sobre h1{
+        font-size: 2.5rem;
+    }
+
+    #content_sobre p{
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    #image img{
+        width: 300px;
+    }
+
+    #content_section3{
+        padding: 6%;
+    }
+
+    #content_section3 h1{
+        font-size: 2.1rem;
+    }
+
+    #content_section3 h2{
+        font-size: 3.2rem;
+    }
+
+    #content_section4{
+        padding: 6%;
+    }
+
+    #content_section4 h1{
+        font-size: 2.8rem;
+    }
+
+    #content_section4 h2{
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    .flex p{
+        font-size: 0.8rem;
+    }
+
+    #division-white img{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .logo img{
+        width: 28%;
+        padding-left: 2rem;
+    }
+
+    #content_section1 h1{
+        font-size: 2.4rem;
+    }
+
+    .navbar a{
+        font-size: 0.8rem;
+    }
+
+    #content_carrossel h1{
+        font-size: 2.2rem;
+    }
+
+    .image-container img{
+        width: 170px;
+    }
+
+    .image-container p{
+        font-size: 1rem;
+    }
+
+    .prev{
+        margin-right: 20%;
+        height: 50px;
+    }
+
+    .next{
+        margin-left: 20%;
+        height: 50px;
+    }
+
+    #content_carrossel{
+        padding: 10%;
+    }
+
+    #content_sobre h1{
+        font-size: 2.2rem;
+    }
+
+    #content_sobre p{
+        font-size: 0.7rem;
+    }
+
+    #image img{
+        width: 250px;
+        padding-top: 10%;
+    }
+
+    #content_sobre button{
+        width: 7.9rem;
+        height: 2.1rem;
+    }
+
+    #content_sobre button a{
+        font-size: 0.8rem;
+    }
+
+    #content_section3 h1{
+        font-size: 1.9rem;
+    }
+
+    #content_section3 h2{
+        font-size: 3rem;
+    }
+
+    .carousel-image{
+        width: 55%;
+    }
+
+    #content_section4{
+        padding: 10%;
+    }
+
+    #content_section4 img{
+        height: 150px;
+    }
+
+    #content_section4 h1{
+        font-size: 2.2rem;
+    }
+
+    #content_section4 h2{
+        font-size: 1rem;
+    }
+
+    #logo-branca img{
+        width: 20%;
+    }
+
+    #division-white img{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .logo img{
+        width: 35%;
+        padding-left: 1rem;
+    }
+
+    #content_section1 h1{
+        font-size: 2.2rem;
+    }
+
+    .navbar{
+        padding: 1rem;
+    }
+
+    .navbar a{
+        font-size: 1rem;
+    }
+
+    #content_carrossel h1{
+        font-size: 2.2rem;
+    }
+
+    .image-container p{
+        font-size: 1rem;
+    }
+
+    .prev{
+        margin-right: 20%;
+        height: 50px;
+    }
+
+    .next{
+        margin-left: 20%;
+        height: 50px;
+    }
+
+    #content_carrossel{
+        padding: 15%;
+    }
+
+    #sobre{
+        flex-direction: column;
+    }
+
+    #content_sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #content_sobre h1{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    #content_sobre p{
+        font-size: 0.7rem;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    #image img{
+        display: none;
+    }
+
+    #image-responsiva{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+    }
+
+    #image-responsiva img{
+        width: 170px;
+    }
+
+    #content_sobre button{
+        width: 7.9rem;
+        height: 2.1rem;
+    }
+
+    #content_sobre button a{
+        font-size: 0.8rem;
+    }
+
+    #content_section3{
+        padding: 12%;
+    }
+
+    #content_section3 h1{
+        font-size: 1.9rem;
+    }
+
+    #content_section3 h2{
+        font-size: 2.9rem;
+    }
+
+    .carousel-image{
+        width: 90%;
+    }
+
+    .carousel-button.prev{
+        margin: 30px;
+    }
+
+    .carousel-button.next{
+        margin: 30px;
+    }
+
+    #content_section4{
+        padding: 15%;
+    }
+
+    #content_section4 h1{
+        font-size: 2rem;
+    }
+
+    #content_section4 h2{
+        font-size: 1rem;
+    }
+
+    #content_section4 img{
+        height: 130px;
+    }
+
+    #logo-branca img{
+        width: 25%;
+    }
+
+    #division-white img{
+        width: 70%;
+    }
+
+    h3{
+        font-size: 0.8rem;
+    }
+
+    .flex p{
+        font-size: 0.7rem;
+    }
+
+    .flex-logo{
+        margin-top: 10%;
+    }
+
+    .flex-logo img{
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .logo img{
+        width: 35%;
+        padding-left: 0;
+    }
+
+    .navbar a{
+        font-size: 1rem;
+    }
+
+    #content_section1 h1{
+        font-size: 2.2rem;
+    }
+
+    #button_section1{
+        padding-top: 5%;
+    }
+
+    #content_carrossel{
+        padding: 20%;
+    }
+
+    #content_carrossel h1{
+        font-size: 1.9rem;
+    }
+
+    .image-container img{
+        width: 150px;
+    }
+
+    .image-container p{
+        font-size: 0.8rem;
+    }
+
+    .prev{
+        margin-right: 20%;
+        height: 40px;
+    }
+
+    .next{
+        margin-left: 20%;
+        height: 40px;
+    }
+
+    #sobre{
+        flex-direction: column;
+    }
+
+    #content_sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #content_sobre h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #content_sobre p{
+        font-size: 0.7rem;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    #image img{
+        display: none;
+    }
+
+    #image-responsiva{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+    }
+
+    #image-responsiva img{
+        width: 170px;
+    }
+
+    #content_sobre button{
+        width: 7.9rem;
+        height: 2.1rem;
+    }
+
+    #content_sobre button a{
+        font-size: 0.8rem;
+    }
+
+    #content_section3{
+        padding: 15%;
+    }
+
+    #content_section3 h1{
+        font-size: 1.6rem;
+    }
+    
+    #content_section3 h2{
+        font-size: 2.4rem;
+    }
+
+    .carousel-image{
+        width: 110%;
+    }
+
+    .carousel-button.prev{
+        margin: 15px;
+    }
+
+    .carousel-button.next{
+        margin: 15px;
+    }
+
+    #content_section4{
+        padding: 12%;
+    }
+
+    #content_section4 img{
+        padding-top: 8%;
+        height: 120px;
+    }
+
+    #content_section4 h1{
+        font-size: 1.5rem;
+    }
+
+    #content_section4 h2{
+        font-size: 0.8rem;
+    }
+
+    #section5{
+        height: auto;
+        padding: 0%;
+    }
+
+    #logo-branca img{
+        width: 35%;
+        padding-top: 8%;
+    }
+
+    #content_section5{
+        margin-top: 8%;
+        margin-left: 5%;
+    }
+
+    .flex-location img, .flex-telefone img{
+        height: 15px;
+    }
+
+    #division-white img{
+        width: 65%;
+    }
+
+    h3{
+        font-size: 0.8rem;
+    }
+
+    .flex p{
+        font-size: 0.7rem;
+    }
+
+    .flex-logo{
+        margin-top: 10%;
+    }
+
+    .flex-logo img{
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .navbar{
+        padding: 0.9rem;
+    }
+
+    .logo img{
+        width: 35%;
+    }
+
+    #button_section1{
+        padding-top: 8%;
+    }
+
+    #content_carrossel{
+        padding: 20%;
+    }
+
+    #logo-branca img{
+        width: 35%;
+    }
+
+    #content_section5{
+        padding-top: 2%;
+        margin-left: 3%;
+    }
+
+    .flex{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .carousel-image{
+        width: 90%;
+    }
+
+    .flex{
+        margin-left: 0%;
+    }
+}

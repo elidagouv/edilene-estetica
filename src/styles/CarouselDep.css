@@ -1,0 +1,23 @@
+.carouselDep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  
+  .carousel-image {
+    width: 50%;
+    object-fit: cover;
+  }
+  
+  .carousel-button.prev {
+    margin: 50px;
+    cursor: pointer;
+  }
+  
+  .carousel-button.next {
+    margin: 50px;
+    cursor: pointer;
+
+  }
+  

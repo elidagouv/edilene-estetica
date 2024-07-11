@@ -1,0 +1,40 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.image-container {
+    margin: 10%;
+}
+  
+.image-container img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container p{
+    color: #CFA752;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 5%;
+}
+  
+.prev {
+    margin-right: 15%;
+    cursor: pointer;
+}
+  
+.next {
+    margin-left: 15%;
+    cursor: pointer;
+}
+  

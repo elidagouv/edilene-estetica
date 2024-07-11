@@ -1,0 +1,29 @@
+#section3{
+    height: auto;
+    width: 100%;
+    background-color: #ffff;
+    background-image: url('/images/golden-textured-oil-painting2.png');
+    background-size: cover; /* Altere este valor para ajustar o zoom */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+}
+
+#content_section3 {
+  text-align: center;
+  padding: 5%;
+}
+
+#content_section3 h1{
+    font-family: 'Poppins';
+    color: #ffff;
+    font-weight:400;
+    font-size: 2.5rem;
+}
+
+#content_section3 h2{
+    font-family: 'Qwitcher Grypen';
+    color: #ffff;
+    font-size: 4rem;
+}

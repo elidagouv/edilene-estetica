@@ -1,0 +1,36 @@
+#section4{
+    height: auto;
+    width: 100%;
+    background-color: #ffff;
+    background-image: url('/images/white-brush-paint-texture-background.jpg');
+    background-size: cover; /* Altere este valor para ajustar o zoom */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+}
+
+#content_section4 {
+    text-align: center;
+    padding: 5%;
+}
+
+#content_section4 h1{
+    font-size: 3rem;
+    color: #D28063;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+#content_section4 h2{
+    font-size: 1.5rem;
+    color: #696868;
+    font-family: 'Poppins';
+    font-weight: 200;
+    padding-top: 2%;
+
+}
+
+#content_section4 img{
+    padding-top: 5%;
+}

@@ -1,0 +1,65 @@
+#section1{
+  height: 100vh;
+  width: 100%;
+  background-color: #ffff;
+  background-image: url('/images/backgroundwoman.jpg');
+  background-size: cover; /* Altere este valor para ajustar o zoom */
+  background-repeat: no-repeat;
+}
+
+#content_section1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding-top: 5%;
+  width: 50vw;
+  height: 50vh;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+#content_section1 h1{
+    font-family: 'Poppins';
+    color: #ffff;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+#button_section1 a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ffff;
+  font-family: 'Poppins';
+}
+
+#button_section1 button{
+    border-radius: 25px;
+    background: none;
+    border: 1px solid #ffff;
+    width: 10rem;
+    height: 2.8rem;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+#button_section1 button:hover {
+  animation: pulse 0.6s infinite alternate; /* Aplica a animação quando o mouse está sobre o botão */
+}
+
+
