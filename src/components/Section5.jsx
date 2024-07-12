@@ -25,7 +25,7 @@ function Section5() {
                     <p>(81) 9332-1845</p>
                     <div className='flex-logo'>
                         <a href="https://www.instagram.com/edilenegouveia.estetica?igsh=MTB4MXA4Mnl5ZWpoZw==" target='blank'><img src="/images/instagram.png" alt="Logo instagram" /></a>
-                        <img src="/images/facebook.png" alt="Logo facebook" className='logo-face' />
+                        <a href="https://m.facebook.com/edilene.gouveia.estetica/" target='blank'><img src="/images/facebook.png" alt="Logo facebook" className='logo-face' /> </a>
                     </div>
                 </div>
             </div>
