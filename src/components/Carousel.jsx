@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Carousel.css'; // Importe o arquivo de estilos do carrossel
+import '../styles/Carousel.css';
 
 const images = [
   { id: 1, src: '/images/limpeza.png', title: 'Limpeza de pele' },

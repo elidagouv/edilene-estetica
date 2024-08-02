@@ -18,6 +18,14 @@
     font-size: 3rem;
     font-family: 'Inter Tight';
     text-align: center;
+    opacity: 0; 
+    transform: translateY(20px); /* Movimento para cima */
+    transition: opacity 2s ease, transform 2s ease;
+}
+
+#content_carrossel h1.active, #content_sobre h1.active, #content_sobre p.active{
+    opacity: 1; 
+    transform: translateY(0);
 }
 
 #sobre{
@@ -34,6 +42,9 @@
     font-size: 3rem;
     color: #CFA752;
     font-family: 'Poppins';
+    opacity: 0; 
+    transform: translateY(20px);
+    transition: opacity 2s ease, transform 2s ease;
 }
 
 #content_sobre p{
@@ -42,6 +53,9 @@
     font-family: 'Poppins';
     color: #D28063;
     font-size: 1rem;
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 3s ease, transform 3s ease;
 }
 
 #content_sobre button{

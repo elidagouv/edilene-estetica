@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/Navbar.css'; // Arquivo de estilo para a navbar
+import '../styles/Navbar.css';
 
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);

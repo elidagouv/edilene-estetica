@@ -3,11 +3,11 @@
     width: 100%;
     background-color: #ffff;
     background-image: url('/images/golden-textured-oil-painting2.png');
-    background-size: cover; /* Altere este valor para ajustar o zoom */
+    background-size: cover; 
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center; /* centraliza horizontalmente */
-    align-items: center; /* centraliza verticalmente */
+    justify-content: center; 
+    align-items: center; 
 }
 
 #content_section3 {
@@ -20,10 +20,22 @@
     color: #ffff;
     font-weight:400;
     font-size: 2.5rem;
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 3s ease, transform 3s ease;
 }
 
 #content_section3 h2{
     font-family: 'Qwitcher Grypen';
     color: #ffff;
     font-size: 4rem;
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 3s ease, transform 3s ease;
+}
+
+#content_section3 h1.active,
+#content_section3 h2.active {
+    opacity: 1; 
+    transform: translateY(0);
 }

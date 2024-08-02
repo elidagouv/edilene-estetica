@@ -23,6 +23,27 @@
     transition: color 0.3s ease;
     margin: 1rem;
     font-size: 1rem;
+    position: relative;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d28063;
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover::before {
+    width: 100%; /* Largura do traço quando o mouse passa por cima */
 }
 
 /* Estilos para o menu hamburger */
@@ -55,7 +76,7 @@
 }
 
 .hamburger-menu label span:nth-child(2) {
-    width: 25px; /* Ajuste a largura para cobrir completamente o ícone de X */
+    width: 25px;
 }
 
 .hamburger-menu label span:last-child {
@@ -74,7 +95,7 @@
 .hamburger-menu .links {
     display: none;
     position: absolute;
-    top: 70px; /* Ajuste conforme necessário */
+    top: 70px; 
     right: 0;
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -88,7 +109,6 @@
     flex-direction: column;
 }
 
-/* Ajuste para o X completo */
 #menu-toggle:checked + label span {
     transform: rotate(45deg);
 }

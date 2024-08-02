@@ -1,7 +1,60 @@
-import Carousel from "./Carousel"
-import '../styles/Section2.css'
+import React, { useEffect } from 'react';
+import Carousel from './Carousel';
+import '../styles/Section2.css';
 
 function Section2() {
+    useEffect(() => {
+        const section2 = document.getElementById('section2');
+        const contentSobre = document.getElementById('content_sobre');
+        const pElement = document.querySelector('#content_sobre p');
+        const h1ElementsCarrossel = document.querySelectorAll('#content_carrossel h1');
+        const h1ElementsSobre = document.querySelectorAll('#content_sobre h1');
+
+        function handleScroll() {
+            // Verifica se a section2 está visível na tela
+            const sectionRect = section2.getBoundingClientRect();
+            const isVisibleSection = sectionRect.top < window.innerHeight && sectionRect.bottom >= 0;
+
+            // Verifica se a content_sobre está visível na tela
+            const contentSobreRect = contentSobre.getBoundingClientRect();
+            const isVisibleContentSobre = contentSobreRect.top < window.innerHeight && contentSobreRect.bottom >= 0;
+
+            // Ativa os h1 dentro de content_carrossel se section2 estiver visível
+            if (isVisibleSection) {
+                h1ElementsCarrossel.forEach(h1 => {
+                    h1.classList.add('active');
+                });
+            } else {
+                h1ElementsCarrossel.forEach(h1 => {
+                    h1.classList.remove('active');
+                });
+            }
+
+            // Ativa os h1 dentro de content_sobre se content_sobre estiver visível
+            if (isVisibleContentSobre) {
+                h1ElementsSobre.forEach(h1 => {
+                    h1.classList.add('active');
+                });
+                pElement.classList.add('active'); // Adiciona a classe 'active' ao <p>
+            } else {
+                h1ElementsSobre.forEach(h1 => {
+                    h1.classList.remove('active');
+                });
+                pElement.classList.remove('active'); // Remove a classe 'active' do <p>
+            }
+        }
+
+        // Listener para verificar o scroll
+        window.addEventListener('scroll', handleScroll);
+        // Executa handleScroll na montagem inicial para verificar o estado inicial
+        handleScroll();
+
+        // Limpa o listener ao desmontar o componente
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <section id="section2">
             <div id="content_carrossel">
@@ -22,7 +75,7 @@ function Section2() {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default Section2
+export default Section2;

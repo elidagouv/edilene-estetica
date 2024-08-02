@@ -390,6 +390,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding: 5%;
     }
     
     #content_sobre h1{
@@ -445,10 +446,12 @@
 
     .carousel-button.prev{
         margin: 15px;
+        height: 30px;
     }
 
     .carousel-button.next{
         margin: 15px;
+        height: 30px;
     }
 
     #content_section4{
